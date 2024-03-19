@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Music Player</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div id ="l" class="spo">
+        <img src="/Spotify-logo-11.jpg" alt="" id="logo">
+        </div>
+    <div class="container">
+        <div>
+            <div class="input">
+                <input type="text" id="searchIn">
+                <button id="searchBut">Search</button>
+            </div>
+            <div id="songsList"></div>
+        </div>
+    </div>
+    
+     <div class="playbar">
+        <div class="song">
+            <img src="/Spotify-logo-11.jpg 
+            " alt="Play a song" class="songimage">
+            <div class="songinfo">
+                <div class="songname">Song Name</div>
+                <div class="songartist">Singer Name</div>
+            </div>
+        </div>
+        <div class="control">
+            <audio id="audioPlayer" controls controlsList="noplaybackrate nodownload"></audio>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

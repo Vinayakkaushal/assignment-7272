@@ -1,0 +1,50 @@
+#logo{
+    width: 250px;
+    height: 200px;
+}
+.spo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#searchIn{
+    width: 400px;
+    height: 25px;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+#searchBut{
+   height: 25px; 
+}
+.songimage{
+    height: 100px;
+    width: 100px;
+}
+#songsList{
+    color: aliceblue;
+    border: 4px solid white;
+    padding: 15px;
+}
+
+.playbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999; 
+}

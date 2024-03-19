@@ -1,0 +1,84 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#cal {
+    border-radius: 25px;
+    background-color: black;
+    height: 40rem;
+    width: 23rem;
+    border: 5px solid gray;
+}
+
+h3 {
+    padding: 7px;
+    margin: 5px;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: left;
+}
+
+#ta {
+    object-fit: fill;
+    padding: 7px;
+    margin: auto;
+    border: 2px solid white;
+    height: 8rem;
+    width: 22rem;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    object-fit:fill;
+}
+#in{
+    display:flex;
+    justify-content: right;
+    height: 8rem;
+    width: 22rem;
+    color: #fff;
+    text-align: right;
+    font-size: 30px;
+    
+}
+
+.button {
+    justify-items: center;
+    padding: 7px;
+    margin: auto;
+    height: 25rem;
+    width: 22rem;
+    color: aliceblue;
+}
+
+.bu {
+    margin: 2px;
+    border-radius: 15px;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(18, 11, 11);
+    font-size: larger;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.bu:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#is{
+    background-color: orange;
+}
+.but{
+    margin: 2px;
+    border-radius: 15px;
+    width: 10.5rem;
+    height: 4rem;
+    background-color: rgb(18, 11, 11);
+    font-size: larger;
+    font-weight: bolder;
+    color: aliceblue;
+}

@@ -1,0 +1,16 @@
+.navSavlogo{
+    margin-top: -40px;
+}
+
+.navMC1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+    
+    gap: 17px;
+}
+.logSignbut:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }

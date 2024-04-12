@@ -1,0 +1,227 @@
+.mainContainerLogin {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}
+
+.imgsrlogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+
+.loginInfo {
+  height: 100vh;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+@media (max-width: 980px) {
+  .imgsrlogin {
+      display: none; 
+  }
+  .loginInfo {
+    position: fixed;
+      width: 100%; 
+      height: 100%;
+      
+  }
+  .msg{
+    position: fixed;
+    margin-left: 60px;
+  }
+}
+
+  .imagelogo{
+    height: 100%;
+    width: 100%;
+  }
+  .logSign{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    padding-right: 18px;
+    margin: 10px;
+  }
+  .logSignbut{
+    padding-left: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    width: 75px;
+    height: 35px;
+  }
+  .logSignbut:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .logContainer{
+    background-color: rgb(246, 246, 246);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 18px;
+    margin: 10px;
+    padding-top: 40px;
+  }
+  .input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 43px;
+    margin: 10px;
+    padding-top: 10px;
+    
+  }
+  .input > .react-tel-input {
+    padding-left: 2px;
+    width: 380px; 
+    border-top-left-radius: 5px; /* Rounded border from the top-left corner */
+    border-bottom-left-radius: 5px;
+    
+  }
+  .input > .react-tel-input .flag-dropdown {
+    left: 0; /* Position the flag dropdown to the left */
+  }
+  .inputBox{
+    background-color: white;
+    border: 2px solid cornsilk;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    width: 380px;
+    height: 50px;
+    font: 1rem sans-serif;
+    font-weight: bold;
+    color:  black;
+    box-shadow: 50px;
+  }
+  .imag{
+   
+    height: 100%;
+    width: 95%;
+  }
+  .imgHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 18px;
+    margin: 10px;
+    padding-top: 40px;
+    height: 500px;
+    width: 500px;
+  }
+  .inputBox:hover{
+    border: 2px solid rgb(43, 197, 180);
+    cursor: pointer;
+    
+  }
+  .cont{
+    background-color: rgb(43, 197, 180);
+    height: 50px;
+    width: 395px;
+    border-radius:25px ;
+    color: white;
+  }
+  .infor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 135px;
+    padding-right: 90px;
+    padding-top: 10px;
+    font-size:smaller ;
+  }
+  .wayChange{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 135px;
+    padding-right: 115px;
+    padding-top: 10px;
+    font-size:large ;
+  }
+  .change{
+    color: white;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.762);
+    border-radius: 30px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    width: 190px;
+    height: 50px;
+    padding: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+
+  .innerTxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+  }
+  .log{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 660px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding: 0px;
+  }
+  .msg{
+    margin-left: 170px;
+    
+  }
+  
+  input[type = number]::-webkit-inner-spin-button, 
+  input[type = number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
+  .forgot{
+    margin-right:250px ;
+    margin-top: -20px;
+    color: rgb(43, 197, 180);
+  }
+  .forgot:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .msgBox{
+    width: 600px;
+    margin-left: 4px;
+  }
